@@ -25,4 +25,8 @@ class GradeTable {
 
   }
 
+  onDeleteClick (deleteGrade) {
+    this.deleteGrade = deleteGrade;
+  }
+
 }
